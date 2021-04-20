@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="container">
+    <div class="salary-db">
+        <label for="salary">base salary</label>
+        <input type="number" name="salary" id="salary" class="salary">
+    </div>
+    <div class="family-sit-div" >
+        <label for="label">family situation :</label>
+        <label for="family-sit">single</label>
+        <input type="radio" name="family-sit" id="single" checked>
+        <label for="family-sit">married</label>
+        <input type="radio" name="family-sit" id="married">
+    </div>
+    <div class="nombre-of-child" style="display: none;">
+        <label for="nthchild"> number of children</label>
+        <input type="number" name="nthchild" id="nthchild">
+        <button id="btn-sub" >submit</button>
+    </div>
+    <div  class="child-age-list"  >
+    </div>
+    <div id="net-salary">
+        <h1>your net salary is : <span id="print-salary" ></span></h1>
+    </div>
+    
+</body>
+<script src="script.js" ></script>
+</html>
